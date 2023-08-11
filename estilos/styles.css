@@ -34,10 +34,12 @@ main{
     width: 250px;
     height: 515px;
     overflow: hidden;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #formulario{
-    padding: 20px;
+    padding: 10px;
 }
 
 #formulario > h1{
@@ -56,15 +58,3 @@ main{
     height: 200px;
 }
 
-.cnom{
-    background-color:  var(--cor01);
-    padding: -4px;
-    
-}
-
-.cnom > label{
-    align-items: center;
-}
-.cnom > input{
-   
-}
