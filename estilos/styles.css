@@ -44,12 +44,41 @@ main{
 
 #formulario > h1{
     font-size: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
     text-align: center;
 }
 
 #formulario > p{
-    font-size: 13px;
+    font-size: 0.8em;
+  
+}
+
+.campo > label{
+    display: none;
+}
+
+.campo{
+    display: block;
+    background-color: #5f2c82;  
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+.campo > span{
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo > input{
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 54px);
+    border-radius: 8px;
+    border: none;
+    background-color: #66d8d8;
 }
 
 #imagem{
@@ -58,3 +87,43 @@ main{
     height: 200px;
 }
 
+
+input[type= submit]{
+    display: block;
+    width: 100%;
+    height: 40px;   
+     font-size: 1em;
+    border: none;
+    border-radius: 6px;
+    background-color: #49a09d;
+    color: white;
+}
+
+input[type= submit]:hover{
+    background-color: #387a78;
+    cursor: pointer;
+}
+
+.ccai > a.botao{
+    display: block;
+    text-align: center;
+
+    width: 100%;
+    padding-top: 10px;
+    height: 30px;
+    margin-top: 7px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #49a09d;
+    color: #49a09d;
+    text-decoration: none;
+}
+
+.ccai > a.botao:hover{
+    background-color: #61dad6;
+}
+
+.ccai > a.botao > span{
+    font-size: 0.8em;
+
+}
