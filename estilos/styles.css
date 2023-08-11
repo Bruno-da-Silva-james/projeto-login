@@ -15,7 +15,7 @@
 
 body, html{
     background-color: var(--cor01);
- 
+    scroll-behavior: none;
 }
 
 main{
@@ -42,12 +42,12 @@ main{
 
 #formulario > h1{
     font-size: 20px;
-    margin: 10px;
+    margin-bottom: 5px;
     text-align: center;
 }
 
 #formulario > p{
-    font-size: 10px;
+    font-size: 13px;
 }
 
 #imagem{
@@ -56,6 +56,15 @@ main{
     height: 200px;
 }
 
-.ccai{
-    padding: 10px;
+.cnom{
+    background-color:  var(--cor01);
+    padding: -4px;
+    
+}
+
+.cnom > label{
+    align-items: center;
+}
+.cnom > input{
+   
 }
