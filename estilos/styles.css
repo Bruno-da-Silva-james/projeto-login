@@ -68,17 +68,23 @@ main{
 
 .campo > span{
     font-size: 2em;
-    width: 40px;
+    width: 41px;
     padding: 5px;
 }
 
 .campo > input{
     font-size: 1em;
     height: 100%;
-    width: calc(100% - 54px);
+    width: calc(100% - 56px);
+    transform: translateY(-10px);
     border-radius: 8px;
     border: none;
     background-color: #66d8d8;
+}
+
+.campo > input:focus-within{
+    background-color: white;
+    color: black;
 }
 
 #imagem{
@@ -92,7 +98,7 @@ input[type= submit]{
     display: block;
     width: 100%;
     height: 40px;   
-     font-size: 1em;
+    font-size: 1em;
     border: none;
     border-radius: 6px;
     background-color: #49a09d;
